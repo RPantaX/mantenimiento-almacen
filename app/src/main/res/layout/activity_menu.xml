@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnInventory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Control de Inventario" />
+
+        <Button
+            android:id="@+id/btnSales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Control de Ventas" />
+
+        <Button
+            android:id="@+id/btnUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Control de Usuarios" />
+
+        <Button
+            android:id="@+id/btnProviders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Control de Proveedores" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
